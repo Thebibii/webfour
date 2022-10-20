@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body class="font-poppins overflow-hidden">
+
+    <div class="sm:bg-red-600 sm:w-full sm:h-[100vh] sm:z-10 flex items-center justify-center xl:hidden">
+        <h1 class="text-white">Hanya untuk Dekstop</h1>
+    </div>
+
+    <!-- Nav Start -->
+    <header>
+        <nav class="w-full pt-3 fixed">
+            <div class="container">
+                <div class="box-nav flex justify-between items-center">
+                    <div class="logo">
+                        <h1 class="text-xl font-semibold">THEBIBI</h1>
+                    </div>
+                    <div class="navbar">
+                        <ul class="flex items-center gap-6">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Pricing</a></li>
+                            <li><a href="">Our Locations</a></li>
+                            <li><a href="">Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex items-center gap-6">
+                        <i class="ri-search-line cursor-pointer"></i>
+                        <i class="ri-notification-4-line cursor-pointer"></i>
+                        <i class="ri-user-3-line cursor-pointer"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Nav End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero w-full h-[100vh] flex items-center">
+        <div class="container">
+            <div class="box-hero grid grid-cols-2 gap-6 place-items-center">
+                <div class="box">
+                    <h3 class="font-semibold mb-2">Keep calm!! its foos time</h3>
+                    <h1 class="text-5xl font-semibold mb-3">The taste that<br>rhymes with <br> your cravings</h1>
+                    <p class="w-[70%] text-sm mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vel
+                        ipsam
+                        molestiae, expedita
+                        corporis obcaecati distinctio laudantium perspiciatis delectus aut.</p>
+                    <form action=""
+                        class="absolute w-[35%] flex px-[6px] py-2 shadow-lg rounded-lg bg-white ring-1 ring-slate-100">
+                        <input type="text" placeholder="Find your favorite menu"
+                            class="text-sm w-[100%] bg-white pl-3  outline-none">
+                        <button class=" w-[30%] bg-black font-semibold text-sm px-2 py-1 text-white rounded-md">Find
+                            Now!</button>
+                    </form>
+                </div>
+                <div class="">
+                    <img src="dist/img/hero.jpg" alt="" class="rounded-xl shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+</body>
+
+</html>
